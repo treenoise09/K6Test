@@ -1,0 +1,28 @@
+running (0m37.1s), 00/10 VUs, 24 complete and 0 interrupted iterations
+default ✓ [======================================] 00/10 VUs  30s
+
+     █ simple user journey
+
+       ✓ is status 200
+       ✓ logged in successfully
+       ✓ is api key present
+       ✓ retrieved crocodiles
+
+     checks.........................: 100.00% ✓ 96       ✗ 0
+     data_received..................: 251 MB  6.8 MB/s
+     data_sent......................: 574 kB  16 kB/s
+     group_duration.................: avg=7.86s    min=3.5s    med=7.6s     max=12.76s   p(90)=10.88s   p(95)=11.09s
+     http_req_blocked...............: avg=16.14ms  min=0s      med=0s       max=368.81ms p(90)=39.42ms  p(95)=66.36ms
+     http_req_connecting............: avg=10.81ms  min=0s      med=0s       max=340.07ms p(90)=16.71ms  p(95)=30.83ms
+     http_req_duration..............: avg=3.89s    min=38.95ms med=2.02s    max=12.68s   p(90)=9.5s     p(95)=10.77s
+       { expected_response:true }...: avg=3.89s    min=38.95ms med=2.02s    max=12.68s   p(90)=9.5s     p(95)=10.77s
+     http_req_failed................: 0.00%   ✓ 0        ✗ 48
+     http_req_receiving.............: avg=3.48s    min=0s      med=1.33s    max=12.23s   p(90)=8.76s    p(95)=10.08s
+     http_req_sending...............: avg=53.25µs  min=0s      med=0s       max=972.7µs  p(90)=0s       p(95)=514.53µs
+     http_req_tls_handshaking.......: avg=5.28ms   min=0s      med=0s       max=46.08ms  p(90)=24.7ms   p(95)=32.92ms
+     http_req_waiting...............: avg=414.07ms min=38.83ms med=456.57ms max=821.83ms p(90)=756.03ms p(95)=798.14ms
+     http_reqs......................: 48      1.294939/s
+     iteration_duration.............: avg=7.86s    min=3.5s    med=7.6s     max=12.76s   p(90)=10.88s   p(95)=11.09s
+     iterations.....................: 24      0.64747/s
+     vus............................: 1       min=1      max=9
+     vus_max........................: 10      min=10     max=10
